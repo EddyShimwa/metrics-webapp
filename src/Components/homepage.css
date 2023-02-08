@@ -1,0 +1,45 @@
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 5px;
+}
+
+.country-container {
+  background-color: rgb(226, 226, 226);
+  padding: 10px;
+  margin-bottom: 2px;
+  height: 100px;
+}
+
+.flag {
+  width: 40px;
+}
+
+ul {
+  padding: 0%;
+}
+
+ .country-name {
+  width: 100%;
+  display: flex;
+  list-style: none;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.country-name a {
+  width: 100%;
+  text-decoration: none;
+  font-size: larger;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  width: 100%;
+  background-color: aqua;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  align-items: center;
+}

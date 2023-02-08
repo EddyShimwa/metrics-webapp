@@ -1,0 +1,17 @@
+.flag {
+    width: 20%
+}
+
+ul li {
+    border: 1px solid red
+}
+ul li a {
+    border: 1px solid red
+}
+
+.country-title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
