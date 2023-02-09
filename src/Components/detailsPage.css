@@ -1,17 +1,73 @@
-.flag {
-    width: 20%
+header li {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white
 }
 
-ul li {
-    border: 1px solid red
+header li a {
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: larger;
+  font-weight: bolder;
+  border: 1px solid  rgb(255, 255, 254);
+  padding: 10px;
+  border-radius: 20px
 }
-ul li a {
-    border: 1px solid red
+
+header li  {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    align-items: center;
+  }
+.Flag {
+    display: flex;
+    width: 80%;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.country-details li {
+    border: 1px solid rgba(7, 7, 17, 0.288);
+    height: 60px;
+    border-radius: 5px;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    background-color: #2c4257e1;
+    color: aliceblue;
+    margin-bottom: 10px;
+    width: 90%;
+    margin-left: 5%;
 }
 
 .country-title {
     display: flex;
+    flex-direction: column;
     width: 100%;
     justify-content: space-between;
     align-items: center;
+    color: white;
+}
+
+.view {
+    width: 40%;
+    display: flex;
+    margin: auto;
+    height: 50px;
+    text-decoration: none;
+    align-items: center;
+    background-color: #33b249;
+    color: aliceblue;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  color: aliceblue;
+  font-size: 18px;
 }

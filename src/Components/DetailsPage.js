@@ -4,6 +4,9 @@ import { BsChevronLeft } from "react-icons/bs";
 import { useSelector, useDispatch } from "react-redux";
 import { fetchCountry } from "../Redux/details";
 import './detailsPage.css'
+import { CiSettings } from 'react-icons/ci'
+import { BiMicrophone } from'react-icons/bi'
+
 
 const Details = () => {
   const { country: countryName } = useParams();
@@ -21,26 +24,26 @@ const Details = () => {
       <header>
         <li>
           <Link to="/">
-            <BsChevronLeft />{" "}
-            <div className="header" ><BiMicrophone style={{ width: '26px', height: '26px', padding: '10px' }}/> <CiSettings style={{ width: '26px', height: '26px', padding: '10px' }}/></div>
+            <BsChevronLeft style={{width: '20px', height: '20px'}} />{" "}
           </Link>
+          <BiMicrophone style={{ width: '30px', height: '30px', padding: '10px' }}/> <CiSettings style={{ width: '30px', height: '30px', padding: '10px' }}/>
         </li>
       </header>
       {country.name ? (
         <div>
 
-           <div className="country-title"><h1>{country.name.common}</h1><img src={country.flags.svg} alt={`Flag of ${country.name.common}`} className="flag" /></div>
-           <ul>
-            <li>Population: {country.population}</li>
+           <div className="country-title"><h1>{country.name.common.toUpperCase()}</h1><img src={country.flags.svg} alt={`Flag of ${country.name.common}`} className="Flag" /></div>
+           <ul className="country-details">
+            <li>Region: {country.capital}</li>
             <li>Capital City: {country.capital}</li>
-            <li><h3><a href="{country.maps.googleMaps}">View on map</a></h3></li>
+            <li>Population: {country.population}</li>
+            <button type="buttton"  className="view"><a href="{country.maps.googleMaps}">View on map</a></button>
 
            </ul>
         </div>
       ) : (
-        <div>Loading...</div>
+        <div className="loading">Loading...</div>
       )}
-      <h1> Hello </h1>
     </div>
   );
 };

@@ -151,7 +151,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Without Microverse Help this project not compleated at all so thanks a lot Microverse for giving us this kind of opertunity.
+> Specials thanks Nelson Sakwa who came up with this amazing original design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
