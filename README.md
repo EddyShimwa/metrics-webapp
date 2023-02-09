@@ -51,10 +51,11 @@
 > Some key feature of this project
 > Features
 
-<div align="center">
-  <img src="/screenshots/image1.png" width="400"  height="auto" />
-  <br/>
-  <img src="/screenshots/image2.png" width="400"  height="auto" />
+<div align="flex">
+
+  ![image1](https://user-images.githubusercontent.com/88631022/217943844-58ccc9f7-6675-45fd-9d7e-72bac76c355c.PNG)
+  
+  ![image2](https://user-images.githubusercontent.com/88631022/217943918-dc4cfcb3-eeb1-4a32-83ab-9465a940dd13.PNG)
 </div>
 
 - **User can switch countries and view details about countries by just clicking on it**
@@ -137,8 +138,8 @@ npm run build
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **I will add...**
-- [ ] **I will add...**
+- [ ] **I will add the microphone functionalities**
+- [ ] **I will add the functionalities to the button named view on map to view that country on google maps**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
