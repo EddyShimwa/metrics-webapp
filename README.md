@@ -51,18 +51,23 @@
 > Some key feature of this project
 > Features
 
-![HomePage](/screenshots/image1.PNG.png)
-![Details Page](/screenshots/image2.PNG.png)
+<div align="center">
+  <img src="/screenshots/image1.png" width="400"  height="auto" />
+  <br/>
+  <img src="/screenshots/image2.png" width="400"  height="auto" />
+</div>
+
 - **User can switch countries and view details about countries by just clicking on it**
 - **User can search among countries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+> ## 🚀 Live Demo <a name="live-demo"> </a>
+- [Check out the live demo here](https://explore-america.onrender.com)
 
 > ## Project demo
->
-> Site is under construction and the Project Demo will update soon.
+[Check out the live video here](https://www.loom.com/share/678ae641b5fe4d64b231a424bcfefbbc)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
