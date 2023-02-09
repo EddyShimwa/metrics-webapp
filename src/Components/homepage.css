@@ -1,27 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200&display=swap');
+
 body {
   background-image: url(/src/assets/bgg.jpg);
+  background-size: cover;
+  font-family: 'poppins', sans-serif;
 }
 
 .main-container {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-gap: 5px;
-}
-
-.country-container {
-  background-color: #3c52bb;
-  margin: 2px 10px;
-  height: 100px;
-  border-radius: 10px;
-
+  grid-gap: 2px;
 }
 
 .header {
-  height: 250px;
+  height: 180px;
   background-image: url(/src/assets/bgg.jpg);
+  border-radius: 10px;
 }
+
 .header h1 {
-  font-size: 40px;
+  font-size: 30px;
   color: rgba(230, 243, 255, 0.459);
   font-weight: 600;
   margin-top: 30px;
@@ -31,14 +29,15 @@ body {
 
 .country-container {
   background-color: #0072ff6e;
-  margin: 2px 10px;
-  height: 100px;
+  margin: 2px 2px;
+  height: 150px;
   border-radius: 10px;
-  border: 1px solid #93c4ff3a;
+  border: 1px solid #bad9ff3a;
 }
+
 .flag {
   width: 20%;
-  height: auto;
+  height: 20px;
   margin-right: 5%;
 }
 
@@ -46,11 +45,10 @@ ul {
   padding: 0%;
 }
 
- .country-name {
+.country-name {
   width: 100%;
   display: flex;
   list-style: none;
-  /* justify-content: space-between; */
   align-items: center;
 }
 
@@ -61,18 +59,17 @@ ul {
   display: flex;
   justify-content: space-between;
   color: white;
-  margin-left: 4%
+  margin-left: 4%;
 }
 
 .search-input {
- display: flex;
- align-items: center;
- z-index: 50;
-
+  display: flex;
+  align-items: center;
+  z-index: 50;
 }
 
 form {
-  color: #000000;
+  color: #000;
   background-color: aliceblue;
   display: flex;
   padding: 2px;
@@ -82,7 +79,6 @@ form {
 }
 
 input[type="search"] {
-  border: none;
   background: transparent;
   margin: 0;
   padding: 7px 8px;
@@ -121,12 +117,18 @@ input[type="search"]:focus {
   outline: none;
 }
 
-.loading{
-  height: 100%;
-  font-size: 50px;
+.loading {
+  display: flex;
+  width: 100%;
+  margin: auto;
+
+  /* height: 100%; */
+  font-size: 35px;
   color: rgb(182, 235, 232);
+  margin-top: 30%;
 }
 
 .icon {
+  position: static;
   margin-left: 78%;
 }

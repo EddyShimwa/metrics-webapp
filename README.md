@@ -51,8 +51,10 @@
 > Some key feature of this project
 > Features
 
-- **User can ....**
-- **User can ....**
+![HomePage](/screenshots/image1.PNG.png)
+![Details Page](/screenshots/image2.PNG.png)
+- **User can switch countries and view details about countries by just clicking on it**
+- **User can search among countries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

@@ -4,7 +4,6 @@ import HomePage from './Components/HomePage';
 import Details from './Components/DetailsPage';
 
 function App() {
-
   return (
     <div className="App">
       <Routes>
