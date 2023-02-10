@@ -3,19 +3,29 @@
 body {
   background-image: url(/src/assets/bgg.jpg);
   background-size: cover;
-  font-family: 'poppins', sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .main-container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 2px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.country-container {
+  width: 50%;
+  background-color: #0073ff30;
+  height: 150px;
+  border-radius: 2px;
+  border: 1px solid #bad9ff23;
+  box-sizing: border-box;
 }
 
 .header {
   height: 180px;
-  background-image: url(/src/assets/bgg.jpg);
-  border-radius: 10px;
+  background-color: #0072ffb3;
+  border-radius: 10px 20px;
+  margin-bottom: 5px;
 }
 
 .header h1 {
@@ -27,29 +37,35 @@ body {
   padding: 2%;
 }
 
-.country-container {
-  background-color: #0072ff6e;
-  margin: 2px 2px;
+.country-container:nth-child(even) {
+  background-color: #0072ffff;
   height: 150px;
-  border-radius: 10px;
-  border: 1px solid #bad9ff3a;
+  border-radius: 2px;
+  border: 1px solid #2b5a9b90;
+}
+
+.country-container:nth-child(3n+1) {
+  background-color: rgba(0, 113, 179, 0.712);
+}
+
+.country-container:nth-child(3n+2) {
+  background-color: rgba(0, 113, 179, 0.616);
+}
+
+.country-container:nth-child(3n) {
+  background-color: rgba(0, 113, 179, 0.529);
 }
 
 .flag {
-  width: 20%;
-  height: 20px;
-  margin-right: 5%;
+  width: 30%;
+  height: 30px;
+  margin-right: 3%;
+  margin-left: auto;
+  margin-bottom: -85px;
 }
 
 ul {
   padding: 0%;
-}
-
-.country-name {
-  width: 100%;
-  display: flex;
-  list-style: none;
-  align-items: center;
 }
 
 .country-name a {
@@ -57,9 +73,12 @@ ul {
   text-decoration: none;
   font-size: larger;
   display: flex;
+  flex-direction: column;
   justify-content: space-between;
   color: white;
-  margin-left: 4%;
+  margin-top: 15%;
+  margin-right: 4px;
+  text-align: right;
 }
 
 .search-input {
@@ -69,13 +88,12 @@ ul {
 }
 
 form {
-  color: #000;
-  background-color: aliceblue;
+  color: #fff;
   display: flex;
   padding: 2px;
-  border: 1px solid currentColor;
   border-radius: 20px;
   width: 90%;
+  align-items: center;
 }
 
 input[type="search"] {
@@ -128,7 +146,6 @@ input[type="search"]:focus {
   margin-top: 30%;
 }
 
-.icon {
-  position: static;
-  margin-left: 78%;
+span.icon {
+  margin-left: 86%;
 }
