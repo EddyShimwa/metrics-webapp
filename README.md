@@ -53,7 +53,7 @@
 
 <div align="flex">
 ![image](https://user-images.githubusercontent.com/88631022/218109533-14f17928-f0ce-48c0-91a9-a28233e1312d.png)
-  
+
 ![image](https://user-images.githubusercontent.com/88631022/218109365-573ad259-1af9-446a-8f3e-ad97edf7c45d.png)
 </div>
 
@@ -164,6 +164,6 @@ Feel free to check the [issues page](../../issues/).
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSe) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
