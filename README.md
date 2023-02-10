@@ -52,10 +52,9 @@
 > Features
 
 <div align="flex">
-
 ![image](https://user-images.githubusercontent.com/88631022/218109533-14f17928-f0ce-48c0-91a9-a28233e1312d.png)
   
- ![image](https://user-images.githubusercontent.com/88631022/218109365-573ad259-1af9-446a-8f3e-ad97edf7c45d.png)
+![image](https://user-images.githubusercontent.com/88631022/218109365-573ad259-1af9-446a-8f3e-ad97edf7c45d.png)
 </div>
 
 - **User can switch countries and view details about countries by just clicking on it**
