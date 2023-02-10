@@ -9,7 +9,7 @@
 # 📗 Table of Contents
 
 - [📗 Table of Contents](#-table-of-contents)
-- [ 💻 Metrics-webapp ](#-Metrics-webapp-)
+- [ 💻 Metrics-webapp  ](#-Metrics-webapp-)
   - [🛠 Built With ](#-built-with-)
     - [Tech Stack ](#tech-stack-)
     - [Key Features ](#key-features-)
@@ -51,16 +51,23 @@
 > Some key feature of this project
 > Features
 
-- **User can ....**
-- **User can ....**
+<div align="flex">
+![image](https://user-images.githubusercontent.com/88631022/218109533-14f17928-f0ce-48c0-91a9-a28233e1312d.png)
+
+![image](https://user-images.githubusercontent.com/88631022/218109365-573ad259-1af9-446a-8f3e-ad97edf7c45d.png)
+</div>
+
+- **User can switch countries and view details about countries by just clicking on it**
+- **User can search among countries**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## 🚀 Live Demo <a name="live-demo"></a>
+> ## 🚀 Live Demo <a name="live-demo"> </a>
+- [Check out the live demo here](https://explore-america.onrender.com)
 
 > ## Project demo
->
-> Site is under construction and the Project Demo will update soon.
+[Check out the live video here](https://www.loom.com/share/1add7267a30f42248dbe36e7e925fe79)
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -130,8 +137,8 @@ npm run build
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **I will add...**
-- [ ] **I will add...**
+- [ ] **I will add the microphone functionalities**
+- [ ] **I will add the functionalities to the button named view on map to view that country on google maps**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -151,12 +158,12 @@ Feel free to check the [issues page](../../issues/).
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Without Microverse Help this project not compleated at all so thanks a lot Microverse for giving us this kind of opertunity.
+> Specials thanks Nelson Sakwa who came up with this amazing original design
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](./LICENSe) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
