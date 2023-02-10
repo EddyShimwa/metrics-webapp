@@ -47,6 +47,6 @@ describe('Testing my App.js with pages', () => {
       </MemoryRouter>,
     );
     const txt = screen.getByText('Hello From Details Page');
-    expect(txt).toBeInTheDocument();
+    expect(txt).toBeInTheDocument()
   });
 });

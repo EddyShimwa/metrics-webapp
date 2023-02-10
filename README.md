@@ -66,7 +66,7 @@
 - [Check out the live demo here](https://explore-america.onrender.com)
 
 > ## Project demo
-[Check out the live video here](https://www.loom.com/share/678ae641b5fe4d64b231a424bcfefbbc)
+[Check out the live video here](https://www.loom.com/share/1add7267a30f42248dbe36e7e925fe79)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
