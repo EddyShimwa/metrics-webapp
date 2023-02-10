@@ -53,9 +53,9 @@
 
 <div align="flex">
 
-  ![image1](https://user-images.githubusercontent.com/88631022/217943844-58ccc9f7-6675-45fd-9d7e-72bac76c355c.PNG)
+![image](https://user-images.githubusercontent.com/88631022/218109533-14f17928-f0ce-48c0-91a9-a28233e1312d.png)
   
-  ![image2](https://user-images.githubusercontent.com/88631022/217943918-dc4cfcb3-eeb1-4a32-83ab-9465a940dd13.PNG)
+ ![image](https://user-images.githubusercontent.com/88631022/218109365-573ad259-1af9-446a-8f3e-ad97edf7c45d.png)
 </div>
 
 - **User can switch countries and view details about countries by just clicking on it**
