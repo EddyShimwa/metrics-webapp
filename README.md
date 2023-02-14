@@ -1,6 +1,7 @@
 <a name="readme-top"></a>
 
 <div align="center">
+![myLogo](https://user-images.githubusercontent.com/88631022/218743176-40b75663-8130-479d-a8eb-80b019654aa0.PNG)
 
   <h1><b>Metrics-webapp</b></h1>
 
@@ -52,9 +53,11 @@
 > Features
 
 <div align="flex">
+
 ![image](https://user-images.githubusercontent.com/88631022/218109533-14f17928-f0ce-48c0-91a9-a28233e1312d.png)
 
 ![image](https://user-images.githubusercontent.com/88631022/218109365-573ad259-1af9-446a-8f3e-ad97edf7c45d.png)
+
 </div>
 
 - **User can switch countries and view details about countries by just clicking on it**
